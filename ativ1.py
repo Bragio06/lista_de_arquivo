@@ -4,9 +4,9 @@ with open('estudantes.txt','w') as dados:
     dados_do_estudantes = {}
 
     while resp != 0 :
-        estudante_curso = input("digite o curso do estudante: ")
         estudante_nome = input("digite o nome do estudante: ")
         estudante_idade = input("digite a idade do estudante: ")
+        estudante_curso = input("digite o curso do estudante: ")
 
         dados_do_estudantes['nome'] = estudante_nome
         dados_do_estudantes['idade'] = estudante_idade
